@@ -1,0 +1,10 @@
+apiVersion: operator.ibm.com/v3
+kind: CommonService
+metadata:
+  name: common-service
+  namespace: ibm-common-services
+spec:
+  services:
+  error: inserted-on-purpose
+  - name: ibm-cert-manager-operator
+    spec: {}

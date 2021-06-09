@@ -6,5 +6,5 @@ metadata:
   namespace: ibm-common-services
 spec:
   services:
-  - name: ibm-cert-manager-operator
-    spec: {}
+    - name: ibm-cert-manager-operator
+      spec: {}
